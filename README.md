@@ -33,6 +33,20 @@ Welcome to my cloud computing portfolio. This site centralizes my projects and l
 
 ---
 
+## 🗄️ Database Labs
+- Azure SQL Database *(coming soon)*  
+  *Provision a managed SQL database, configure firewall rules, and connect from a VM.*
+- AWS RDS *(coming soon)*  
+  *Deploy MySQL/PostgreSQL on RDS, enable backups, and test connectivity.*
+- Serverless + DB Integration *(coming soon)*  
+  *Trigger an Azure Function or AWS Lambda to insert records into a database.*
+- High Availability DB Setup *(coming soon)*  
+  *Configure geo‑replication for Azure SQL or multi‑AZ deployment for RDS.*
+- Monitoring DB Performance *(coming soon)*  
+  *Use Azure Monitor or CloudWatch metrics to track query latency and CPU usage.*
+
+---
+
 ## 📊 Monitoring & Identity Labs
 - Azure Monitor + Log Analytics *(coming soon)*  
 - AWS CloudWatch Alarms *(coming soon)*  
@@ -40,7 +54,7 @@ Welcome to my cloud computing portfolio. This site centralizes my projects and l
 
 ---
 
-## 🎯 Recruiter Summary
+## 🎯 Summary
 This portfolio demonstrates:
 - Practical cloud networking and security setups  
 - Infrastructure automation with Terraform and Ansible  
