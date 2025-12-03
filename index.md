@@ -34,8 +34,6 @@ My hands‑on projects highlight expertise in automation, networking, and modern
 
 Explore detailed labs and hands‑on exercises in the [Supporting Projects](./supporting-projects.md) file.  
 
-For a quick overview, return to the [Portfolio Index](./index.md).
-
 ---
 
 ##  Credentials
@@ -54,7 +52,7 @@ This portfolio demonstrates:
 
 ---
 
-## 📫 Connect
+##  Connect
 - **GitHub Profile:** [selvi-vasanth](https://github.com/selvi-vasanth)  
 - **Portfolio Hub:** [Cloud Portfolio](https://selvi-vasanth.github.io/cloud-portfolio/)  
 - **LinkedIn:** [Selvi Vasanth](https://www.linkedin.com/in/selvi-vasanth)  
