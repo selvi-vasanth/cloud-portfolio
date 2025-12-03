@@ -1,6 +1,6 @@
-# 🌐 Cloud Portfolio – Selvi Vasanth
+#  Cloud Portfolio – Selvi Vasanth
 
-##Cloud Computing Specialist | Secure, Scalable Architectures**
+## Cloud Computing Specialist | Secure, Scalable Architectures
 
 I’m an experienced software developer pivoting into cloud computing, specializing in Azure and AWS.  
 I design secure, scalable architectures and document my projects for clarity and reproducibility.  
