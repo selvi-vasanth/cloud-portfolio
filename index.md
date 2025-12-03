@@ -3,55 +3,34 @@
 ## Cloud Computing Specialist | Secure, Scalable Architectures
 
 I’m an experienced software developer pivoting into cloud computing, specializing in Azure and AWS.  
-I design secure, scalable architectures and document my projects for clarity and reproducibility.  
+I build secure, scalable architectures across multi-region environments and modern cloud services.
 
-![Azure Architecture Diagram](assets/geo-redundant-azure.png)  
-*Flagship Diagram: Geo‑redundant Azure architecture with Traffic Manager and App Gateway.*
+![Multi-Cloud Architecture Diagram](assets/Multi-Cloud Archiecture.png)  
+*Flagship Diagram: Active‑Active Multi‑Cloud Architecture with Weighted DNS Failover (AWS + Azure)*
 
 ---
 
 ##  Featured Projects
-- [**Tyrell Corp Geo‑Redundant Architecture**](https://selvi-vasanth.github.io/geo-redundant-architecture/)  
-  Multi‑region VNets, Traffic Manager, and Application Gateway with path‑based routing.  
-  *Demonstrates ability to design secure, low‑latency architectures.*
 
-- [**Terraform vs Ansible Comparison Project**](https://selvi-vasanth.github.io/terraform-vs-ansible/)  
-  Infrastructure provisioning vs configuration management — side‑by‑side deployment and analysis.  
-  *Shows tool evaluation and adaptability in automation workflows.*
+- [**Multi‑Cloud High‑Availability Web App (AWS + Azure)**](https://selvi-vasanth.github.io/geo-redundant-architecture/)  
+  - Active‑active deployment using AWS ALB, Azure Load Balancer, and Traffic Manager with weighted DNS routing  
+  - *Highlights resilient, secure, globally accessible architecture with cross‑cloud failover*
+
+- **Hybrid Cloud Architecture with Secure VPN & Identity Integration**  
+  - Site‑to‑Site VPN connecting on‑prem workloads with AWS VPC and Azure VNet  
+  - Unified identity management via Azure AD and AWS IAM federation  
+  - *Demonstrates hybrid connectivity, secure routing, and enterprise‑grade identity integration*
+
+- **Serverless Multi‑Region Application with Disaster Recovery**  
+  - AWS Lambda + API Gateway paired with Azure Functions + Application Gateway  
+  - Cross‑cloud storage replication (S3 ↔ Azure Blob) with DNS‑based failover  
+  - *Showcases modern serverless design, event‑driven scalability, and disaster recovery across regions*
 
 ---
+## Supporting Projects
 
-##  Supporting Projects
-
-###  Networking & Security Projects
-- [Azure Networking Lab](https://selvi-vasanth.github.io/azure-networking-lab/) *(coming soon)*  
-- NSG Deep Dive *(coming soon)*  
-- VNet Peering Lab *(coming soon)*  
-
-###  Infrastructure Automation Projects
-- [Terraform vs Ansible Comparison](https://selvi-vasanth.github.io/terraform-vs-ansible/) *(coming soon)*  
-- Ansible Playbooks *(coming soon)*  
-
-###  Compute & Storage Projects
-- Azure VM + Load Balancer *(coming soon)*  
-- [AWS Serverless Mini Labs](https://selvi-vasanth.github.io/aws-serverless-mini-labs/) *(coming soon)*  
-
-###  Database Projects
-- Azure SQL Database *(coming soon)*  
-- AWS RDS *(coming soon)*  
-- Serverless + DB Integration *(coming soon)*  
-- High Availability DB Setup *(coming soon)*  
-- Monitoring DB Performance *(coming soon)*  
-
-###  High Availability Projects
-- [Geo‑Redundant Architecture](https://selvi-vasanth.github.io/geo-redundant-architecture/) *(coming soon)*  
-- Disaster Recovery Simulation *(coming soon)*  
-
-###  Monitoring & Identity Projects
-- Azure Monitor + Log Analytics *(coming soon)*  
-- AWS CloudWatch Alarms *(coming soon)*  
-- RBAC & IAM Labs *(coming soon)*  
-
+Explore detailed labs and hands‑on exercises in the [Supporting Projects](./supporting-projects.md) file.  
+For a quick overview, return to the (./index.md).
 ---
 
 ##  Credentials
