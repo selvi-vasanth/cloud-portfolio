@@ -1,7 +1,6 @@
 # 🌐 Cloud Portfolio – Selvi Vasanth
 
-## 👋 Hero Section
-**Cloud Engineer | Azure & AWS Solutions**
+##Cloud Computing Specialist | Secure, Scalable Architectures**
 
 I’m an experienced software developer pivoting into cloud computing, specializing in Azure and AWS.  
 I design secure, scalable architectures and document my projects for clarity and reproducibility.  
@@ -11,7 +10,7 @@ I design secure, scalable architectures and document my projects for clarity and
 
 ---
 
-## 🔧 Featured Projects
+##  Featured Projects
 - [**Tyrell Corp Geo‑Redundant Architecture**](https://selvi-vasanth.github.io/geo-redundant-architecture/)  
   Multi‑region VNets, Traffic Manager, and Application Gateway with path‑based routing.  
   *Demonstrates ability to design secure, low‑latency architectures.*
@@ -22,52 +21,52 @@ I design secure, scalable architectures and document my projects for clarity and
 
 ---
 
-## 📘 Supporting Projects
+##  Supporting Projects
 
-### 🔐 Networking & Security Projects
+###  Networking & Security Projects
 - [Azure Networking Lab](https://selvi-vasanth.github.io/azure-networking-lab/) *(coming soon)*  
 - NSG Deep Dive *(coming soon)*  
 - VNet Peering Lab *(coming soon)*  
 
-### ⚙️ Infrastructure Automation Projects
+###  Infrastructure Automation Projects
 - [Terraform vs Ansible Comparison](https://selvi-vasanth.github.io/terraform-vs-ansible/) *(coming soon)*  
 - Ansible Playbooks *(coming soon)*  
 
-### ☁️ Compute & Storage Projects
+###  Compute & Storage Projects
 - Azure VM + Load Balancer *(coming soon)*  
 - [AWS Serverless Mini Labs](https://selvi-vasanth.github.io/aws-serverless-mini-labs/) *(coming soon)*  
 
-### 🗄️ Database Projects
+###  Database Projects
 - Azure SQL Database *(coming soon)*  
 - AWS RDS *(coming soon)*  
 - Serverless + DB Integration *(coming soon)*  
 - High Availability DB Setup *(coming soon)*  
 - Monitoring DB Performance *(coming soon)*  
 
-### 🌍 High Availability Projects
+###  High Availability Projects
 - [Geo‑Redundant Architecture](https://selvi-vasanth.github.io/geo-redundant-architecture/) *(coming soon)*  
 - Disaster Recovery Simulation *(coming soon)*  
 
-### 📊 Monitoring & Identity Projects
+###  Monitoring & Identity Projects
 - Azure Monitor + Log Analytics *(coming soon)*  
 - AWS CloudWatch Alarms *(coming soon)*  
 - RBAC & IAM Labs *(coming soon)*  
 
 ---
 
-## 🎓 Credentials
+##  Credentials
 - Microsoft Certified: Azure Fundamentals  
 - Caltech CTME Post Graduate Program in Cloud Computing  
 
 ---
 
-## 👩‍💻 About Me
+##  About Me
 With 9+ years of experience in software development (C#.NET, SQL Server), I’ve relaunched my career into cloud computing through hands‑on projects and certifications.  
 I focus on building secure, industry‑standard solutions and presenting them in recruiter‑friendly documentation.
 
 ---
 
-## 📌 Summary
+##  Summary
 This portfolio demonstrates:  
 - Practical cloud networking and security setups  
 - Infrastructure automation with Terraform and Ansible  
