@@ -2,8 +2,11 @@
 
 ## Cloud Computing Specialist | Secure, Scalable Architectures
 
-I’m an experienced software developer pivoting into cloud computing, specializing in Azure and AWS.  
-I build secure, scalable architectures across multi-region environments and modern cloud services.
+## About Me
+
+I’m an experienced software developer transitioning into cloud computing, specializing in Azure and AWS.  
+With 9+ years of background in enterprise applications (C#.NET, SQL Server), I now focus on designing secure, scalable architectures across multi‑region environments.  
+My hands‑on projects highlight expertise in automation, networking, and modern cloud services.
 
 ![Multi-Cloud Architecture Diagram](assets/Multi-Cloud Archiecture.png)  
 *Flagship Diagram: Active‑Active Multi‑Cloud Architecture with Weighted DNS Failover (AWS + Azure)*
@@ -30,18 +33,14 @@ I build secure, scalable architectures across multi-region environments and mode
 ## Supporting Projects
 
 Explore detailed labs and hands‑on exercises in the [Supporting Projects](./supporting-projects.md) file.  
-For a quick overview, return to the (./index.md).
+
+For a quick overview, return to the [Portfolio Index](./index.md).
+
 ---
 
 ##  Credentials
 - Microsoft Certified: Azure Fundamentals  
 - Caltech CTME Post Graduate Program in Cloud Computing  
-
----
-
-##  About Me
-With 9+ years of experience in software development (C#.NET, SQL Server), I’ve relaunched my career into cloud computing through hands‑on projects and certifications.  
-I focus on building secure, industry‑standard solutions and presenting them in recruiter‑friendly documentation.
 
 ---
 
