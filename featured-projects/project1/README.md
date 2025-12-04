@@ -45,7 +45,9 @@ A logistics company with a high-traffic web application requires global accessib
 ---
 
 ## Existing Architecture
-*(Placeholder for diagram — see `assets/diagram.png`)*
+<img src="./featured-projects/project1/assets/existing-architecture.png" 
+     alt="Multi-Cloud Architecture Diagram" 
+     width="550"/><br/>
 
 ---
 
