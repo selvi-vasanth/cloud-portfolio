@@ -8,7 +8,9 @@ I’m an experienced software developer transitioning into cloud computing, spec
 With 9+ years of background in enterprise applications (C#.NET, SQL Server), I now focus on designing secure, scalable architectures across multi‑region environments.  
 My hands‑on projects highlight expertise in automation, networking, and modern cloud services.
 
-![Multi-Cloud Architecture Diagram](./featured-projects/project1/assets/multi-cloud-architecture.png)  
+<img src="./featured-projects/project1/assets/multi-cloud-architecture.png" 
+     alt="Multi-Cloud Architecture Diagram" 
+     width="550"/><br/>
 *Flagship Diagram: Active‑Active Multi‑Cloud Architecture with Weighted DNS Failover (AWS + Azure)*
 
 ---
