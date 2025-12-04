@@ -48,9 +48,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 - **Assumption:** Company opted for VMs due to legacy dependencies and compliance testing needs.  
 
 ## Existing Architecture
-<img src="./assets/existing-architecture.png" 
-     alt="Current Architecture Diagram" 
-     width="550"/><br/>
+![Current Architecture Diagram](./assets/existing-architecture.png)
      
 ## Solution Architecture
 **Active-Active with Weighted Failover**
@@ -60,8 +58,10 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 - Automatic failover during outages  
 
 **Solution Architecture Diagram**
-![Current Architecture Diagram](./assets/multi-cloud-architecture.png)
-
+<!--![Current Architecture Diagram](./assets/multi-cloud-architecture.png)-->
+<img src="./assets/multi-cloud-architecture.png" 
+     alt="Current Architecture Diagram" 
+     width="550"/><br/>
 *Flagship Diagram: Active‑Active Multi‑Cloud Architecture with Weighted DNS Failover (AWS + Azure)*
 
 ## Component Mapping
