@@ -1,4 +1,4 @@
-# 🌐 Cloud Portfolio – Selvi Vasanth
+#  Cloud Portfolio – Selvi Vasanth
 
 Welcome to my cloud computing portfolio. This site centralizes my projects and labs, showcasing hands‑on work in **Azure** and **AWS** with a focus on networking, automation, and high availability.
 
