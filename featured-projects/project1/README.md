@@ -51,7 +51,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 <!--![Current Architecture Diagram](./assets/existing-architecture.png)-->
 <img src="./assets/existing-architecture.png" 
      alt="Current Architecture Diagram" 
-     width="350"/><br/>
+     width="300"/><br/>
      
 ## Solution Architecture
 **Active-Active with Weighted Failover**
@@ -62,6 +62,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 
 **Solution Architecture Diagram**
 <!--![Current Architecture Diagram](./assets/multi-cloud-architecture.png)-->
+<br>
 <img src="./assets/multi-cloud-architecture.png" 
      alt="Current Architecture Diagram" 
      width="450"/><br/>
