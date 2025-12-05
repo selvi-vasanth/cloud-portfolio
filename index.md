@@ -22,12 +22,12 @@ My hands‑on projects highlight expertise in automation, networking, and modern
   - Active‑active deployment using AWS ALB, Azure Load Balancer, and Traffic Manager with weighted DNS routing  
   - *Highlights resilient, secure, globally accessible architecture with cross‑cloud failover*
 
-- **Hybrid Cloud Architecture with Secure VPN & Identity Integration**  
+- ## [Hybrid Cloud Architecture with Secure VPN & Identity Integration](./featured-projects/project2/README.md)
   - Site‑to‑Site VPN connecting on‑prem workloads with AWS VPC and Azure VNet  
   - Unified identity management via Azure AD and AWS IAM federation  
   - *Demonstrates hybrid connectivity, secure routing, and enterprise‑grade identity integration*
 
-- **Serverless Multi‑Region Application with Disaster Recovery**  
+- ## [Serverless Multi‑Region Application with Disaster Recovery](./featured-projects/project3/README.md)
   - AWS Lambda + API Gateway paired with Azure Functions + Application Gateway  
   - Cross‑cloud storage replication (S3 ↔ Azure Blob) with DNS‑based failover  
   - *Showcases modern serverless design, event‑driven scalability, and disaster recovery across regions*
