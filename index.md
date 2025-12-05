@@ -18,7 +18,7 @@ My hands‑on projects highlight expertise in automation, networking, and modern
 
 ##  Featured Projects
 
-- [**Multi‑Cloud High‑Availability Web App (AWS + Azure)**] [Multi-CloudWebApp](./featured-projects/project1/README.md)  
+- ## [Multi‑Cloud High‑Availability Web App (AWS + Azure)](./featured-projects/project1/README.md)
   - Active‑active deployment using AWS ALB, Azure Load Balancer, and Traffic Manager with weighted DNS routing  
   - *Highlights resilient, secure, globally accessible architecture with cross‑cloud failover*
 
