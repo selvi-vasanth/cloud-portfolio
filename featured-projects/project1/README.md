@@ -121,12 +121,6 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 
 <img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
 
-![AWS Load Balancer Screenshot](./assets/aws-lb.png)
-
-![Azure Load Balancer Screenshot](./assets/azure-lb.png)
-
-![Azure Traffic Manager Screenshot](./assets/azure-traffic-manager.png)
-
 For the full set of screenshots, [see the PDF here](./screenshots/MulticloudApp_Screenshots.pdf).
 
 ## Lessons Learned
