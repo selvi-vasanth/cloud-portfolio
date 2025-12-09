@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Case Study: Deployment of Multicloud App
+title:  Case Study - Deployment of Multicloud App
 ---
 # Case Study: Deployment of Multicloud App
 
