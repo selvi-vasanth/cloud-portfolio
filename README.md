@@ -5,10 +5,17 @@ Welcome to my cloud computing portfolio. This site centralizes my projects and l
 ---
 
 ##  Networking & Security Labs
-- [Azure Networking Lab](https://<username>.github.io/azure-networking-lab/)  
+- [Azure Networking Lab](https://selvi-vasanth.github.io/azure-networking-lab/)  
   *Secure VNet with segmented subnets and NSG rules.*
 - NSG Deep Dive *(coming soon)*  
 - VNet Peering Lab *(coming soon)*  
+
+---
+
+##  High Availability Labs
+- [Geo‑Redundant Architecture](https://selvi-vasanth.github.io/project1/)  
+  *Multi‑region VNets, Traffic Manager, and secure VM‑to‑gateway communication.*
+- Disaster Recovery Simulation *(coming soon)*  
 
 ---
 
@@ -26,12 +33,6 @@ Welcome to my cloud computing portfolio. This site centralizes my projects and l
 
 ---
 
-##  High Availability Labs
-- [Geo‑Redundant Architecture](https://<username>.github.io/geo-redundant-architecture/)  
-  *Multi‑region VNets, Traffic Manager, and secure VM‑to‑gateway communication.*
-- Disaster Recovery Simulation *(coming soon)*  
-
----
 
 ##  Database Labs
 - Azure SQL Database *(coming soon)*  
