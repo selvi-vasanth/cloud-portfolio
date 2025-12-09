@@ -111,17 +111,17 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 7. Validate weighted distribution + failover  
 
 ## Screenshots
-## Multi‑Cloud Load Balancer Configuration (AWS + Azure)
-
-## Multi‑Cloud Load Balancer Configuration (AWS + Azure)
+## Multi‑Cloud Load Balancer Configuration (AWS & Azure)
 
 <img src="./assets/aws-lb.png" alt="AWS Load Balancer" width="600">
 
 <img src="./assets/azure-lb.png" alt="Azure Load Balancer" width="600">
 
+## Azure Traffic Manager Configuration (AWS & Azure)
+
 <img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
 
-For the full set of screenshots, [see the PDF here](./screenshots/MulticloudApp_Screenshots.pdf).
+For the full set of screenshots, [see the PDF here](./assets/MulticloudApp_Screenshots.pdf).
 
 ## Lessons Learned
 - DNS-based failover is simpler to implement than app-level routing.  
