@@ -60,7 +60,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 - Weighted traffic distribution (e.g., 70% AWS, 30% Azure)  
 - Automatic failover during outages  
 
-**Solution Architecture Diagram**
+** Architecture Diagram**
 <!--![Current Architecture Diagram](./assets/multi-cloud-architecture.png)-->
 <br>
 <img src="./assets/multi-cloud-architecture.png" 
@@ -126,19 +126,20 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 <!-- For the full set of screenshots, [see the PDF here](./assets/Screenshots.pdf).-->
 
 ## Lessons Learned
-- DNS-based failover is simpler to implement than app-level routing.  
-- Weighted routing enables controlled traffic distribution across clouds.  
-- VM hosting adds complexity but ensures compliance and legacy support.  
-- Cross-cloud troubleshooting requires clear documentation and monitoring.  
+- DNS-based failover provides a straightforward mechanism for cross-cloud availability.  
+- Weighted routing enables controlled traffic distribution across multiple cloud environments.  
+- Virtual machine hosting introduces additional complexity but supports compliance and legacy system requirements.  
+- Cross-cloud troubleshooting requires robust monitoring practices.    
 
 ## Tech Stack
 - **Cloud Platforms:** AWS, Azure  
 - **Compute:** EC2, Azure VMs  
 - **Networking:** VPC, VNets, Subnets, Load Balancers  
 - **Routing:** Azure Traffic Manager  
-- **Web Servers:** Apache (Amazon Linux 2, Ubuntu)  
-<!--
-## Future Improvements
+- **Web Servers:** Apache (Amazon Linux 2, Ubuntu)
+  
+
+<!--- ## Future Improvements
 - Replace VM hosting with PaaS services for reduced maintenance.  
 - Add monitoring dashboards (CloudWatch, Azure Monitor).  
 - Implement CI/CD pipelines for automated deployments.  
