@@ -121,7 +121,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 
 <img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
 
-For the full set of screenshots, [View Screenshots PDF](./assets/Screenshots.pdf)
+[View Screenshots PDF](./assets/Screenshots.pdf)
 
 <!-- For the full set of screenshots, [see the PDF here](./assets/Screenshots.pdf).-->
 
