@@ -60,7 +60,7 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 - Weighted traffic distribution (e.g., 70% AWS, 30% Azure)  
 - Automatic failover during outages  
 
-** Architecture Diagram**
+**Architecture Diagram**
 <!--![Current Architecture Diagram](./assets/multi-cloud-architecture.png)-->
 <br>
 <img src="./assets/multi-cloud-architecture.png" 
