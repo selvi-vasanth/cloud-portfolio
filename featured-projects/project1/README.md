@@ -111,8 +111,21 @@ Downtime is unacceptable due to multimillion daily traffic, so the company opted
 7. Validate weighted distribution + failover  
 
 ## Screenshots
-![AWS Deployment Screenshot](./assets/screenshot1.png)  
-![Azure Deployment Screenshot](./assets/screenshot2.png)  
+## Multi‑Cloud Load Balancer Configuration (AWS + Azure)
+
+## Multi‑Cloud Load Balancer Configuration (AWS + Azure)
+
+<img src="./assets/aws-lb.png" alt="AWS Load Balancer" width="600">
+
+<img src="./assets/azure-lb.png" alt="Azure Load Balancer" width="600">
+
+<img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
+
+![AWS Load Balancer Screenshot](./assets/aws-lb.png)
+
+![Azure Load Balancer Screenshot](./assets/azure-lb.png)
+
+![Azure Traffic Manager Screenshot](./assets/azure-traffic-manager.png)
 
 For the full set of screenshots, [see the PDF here](./screenshots/MulticloudApp_Screenshots.pdf).
 
@@ -128,12 +141,12 @@ For the full set of screenshots, [see the PDF here](./screenshots/MulticloudApp_
 - **Networking:** VPC, VNets, Subnets, Load Balancers  
 - **Routing:** Azure Traffic Manager  
 - **Web Servers:** Apache (Amazon Linux 2, Ubuntu)  
-
+<!--
 ## Future Improvements
 - Replace VM hosting with PaaS services for reduced maintenance.  
 - Add monitoring dashboards (CloudWatch, Azure Monitor).  
 - Implement CI/CD pipelines for automated deployments.  
-- Explore cost optimization strategies for multi-region workloads.  
+- Explore cost optimization strategies for multi-region workloads.  -->
 
 ## Conclusion
 This project delivers a multi-cloud architecture for a logistics company’s static web app, deployed across AWS and Azure using VMs, load balancers, and Azure Traffic Manager with weighted DNS routing.  
