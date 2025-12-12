@@ -76,7 +76,6 @@ Rand Enterprises had no existing Azure networking setup. Default user permission
 - VNet peering provides seamless, low‑latency connectivity across VNets.  
 - Custom RBAC roles are essential for enforcing least‑privilege access.  
 - Testing connectivity and permissions ensures both networking and governance requirements are met.  
-- Documentation and screenshots strengthen recruiter impact.
 
 ## Tech Stack
 - **Azure Virtual Network (VNet)**  
