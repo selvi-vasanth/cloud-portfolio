@@ -23,7 +23,7 @@ The solution follows an **active‑active architecture** with weighted routing:
 
 <img src="./assets/multi-cloud-architecture.png" 
      alt="Current Architecture Diagram" 
-     width="300"/><br/>
+     width="600"/><br/>
 ---
 
 ## Implementation Summary
