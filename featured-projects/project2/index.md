@@ -4,8 +4,8 @@
 This project demonstrates how to design and deploy a highly available web application architecture on Microsoft Azure using the Azure CLI. The solution distributes incoming traffic across multiple virtual machines, ensuring that only healthy instances serve user requests. This setup improves uptime, fault tolerance, and operational consistency through automation.
 
 ## Project Scenario
-Rand Enterprises wants to deploy a web application in a highly available environment where only healthy VM instances serve traffic. To avoid exposing VMs directly to the internet, all communication must flow through an Azure Public Load Balancer.  
-The operations team also requires a reusable, script‑driven deployment method using Azure CLI to support future automation and consistent provisioning.
+Rand Enterprises wants to deploy a web application in a highly available environment where only healthy VM instances serve traffic. To avoid exposing VMs directly to the internet, all communication must flow through an Azure Public Load Balancer. The operations team also requires a reusable, script‑driven deployment method using Azure CLI to support future automation
+and consistent provisioning.
 
 ## Architecture
 - **Virtual Network (VNet)** with a dedicated subnet  
@@ -72,7 +72,7 @@ VM failover test results
 - Understanding backend pool associations and VM networking  
 
 ## Tech Stack
-- **Azure Services:** Virtual Network, Virtual Machines, Public Load Balancer  
+- **Azure Services:** Virtual Network, Subnet, Virtual Machines, Public Load Balancer, Public IP, Network Security Group (NSG), NICs, Backend Pool, Health Probe  
 - **Tools:** Azure CLI, Bash  
 - **Compute:** Linux VMs  
 - **Networking:** Subnets, Public IP, Load Balancing  
