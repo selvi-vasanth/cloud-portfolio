@@ -20,7 +20,7 @@ The operations team also requires a reusable, script‑driven deployment method 
 
 **Architecture Diagram**
 
-<img src="./assets/multi-cloud-architecture.png" 
+<img src="./assets/Architecture-diagram.png" 
      alt="Current Architecture Diagram" 
      width="600"/><br/>
 ---
@@ -51,16 +51,18 @@ The operations team also requires a reusable, script‑driven deployment method 
 
 ## Screenshots 
 Load Balancer configuration
-<br><img src="./assets/multi-cloud-architecture.png" 
-     alt="Current Architecture Diagram" 
+<br><img src="./assets/LoadBalancer.png" 
+     alt="Load Balancer" 
      width="600"/><br/>
-Backend pool health status
-<br><img src="./assets/multi-cloud-architecture.png" 
-     alt="Current Architecture Diagram" 
+     
+Backend Pool
+<br><img src="./assets/BackendPools.png" 
+     alt="Backend Pool" 
      width="600"/><br/>
+     
 VM failover test results
-<br><img src="./assets/multi-cloud-architecture.png" 
-     alt="Current Architecture Diagram" 
+<br><img src="./assets/TestResults.png" 
+     alt="TestResults" 
      width="600"/><br/>     
 ## Lessons Learned
 - Importance of health probes in maintaining high availability  
