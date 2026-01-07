@@ -44,7 +44,7 @@ This project includes Azure CLI scripts for:
 - Backend pool association  
 - Validation commands  
 
-All scripts are documented in **sourcecode.md** in this folder.
+The deployment script is available here: [deploy-loadbalancer.sh](./assets/deploy-loadbalancer.sh)
 
 ---
 
@@ -54,7 +54,7 @@ All scripts are documented in **sourcecode.md** in this folder.
 - Ensured the health probe correctly detected unhealthy VMs  
 - Observed consistent uptime during failover testing  
 
-All screenshots are included in **Screenshots.pdf** in this folder.
+All screenshots are available here: [Screenshots.pdf](./assets/Screenshots.pdf)
 
 ---
 
