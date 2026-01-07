@@ -46,7 +46,3 @@ All scripts are available in this folder.
 ## Full Case Study
 For the complete write-up, screenshots, and architecture diagram, visit the portfolio page:  
  https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project1/
-
-## Source Code
-View the full project folder here:  
- https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project1
