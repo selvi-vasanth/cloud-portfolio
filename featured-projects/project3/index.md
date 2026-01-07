@@ -49,6 +49,7 @@ Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure
 ---
 ## Screenshots
 VNet creation and Peering setup
+
 <br><img src="./assets/VNet.png" 
      alt="VNet" 
      width="600"/><br/>
@@ -57,11 +58,13 @@ VNet creation and Peering setup
      width="600"/><br/>
      
 VNet Peering test
+
 <br><img src="./assets/TestConnection.png" 
      alt="Test Connection" 
      width="600"/><br/>
      
 User access validation
+
 <br><img src="./assets/RoleAssignment.png" 
      alt="Role Assignment" 
      width="600"/><br/>     
