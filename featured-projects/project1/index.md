@@ -25,7 +25,20 @@ The solution follows an **active‑active architecture** with weighted routing:
      alt="Current Architecture Diagram" 
      width="600"/><br/>
 ---
+### Key Components
+- **AWS EC2 Instances:** Two Amazon Linux instances running Apache Web Server.
+- **AWS Application Load Balancer:** Distributes traffic across EC2 instances and exposes a single endpoint to Traffic Manager.
+- **Azure Virtual Machines:** Two Ubuntu 24.04 VMs running Apache Web Server.
+- **Azure Load Balancer:** Distributes traffic across Azure VMs and exposes a single endpoint to Traffic Manager.
+- **Azure Traffic Manager:** Global DNS‑based routing using Weighted + Priority routing for multi‑cloud failover.
+- **Health Probes:** Used by both load balancers and Traffic Manager to detect unhealthy endpoints.
+- **Networking:** VPC (AWS) and VNet (Azure) with secure inbound rules and isolated subnets.
+- **Application Layer:** Static HTML pages customized per instance to validate routing and failover behavior.
+- **Automation Level:** 
+  - Manual provisioning on Azure VMs  
+  - User‑data automation on AWS EC2  
 
+---
 ## Implementation Summary
 - Deployed identical static web workloads on **AWS EC2** and **Azure VMs**.  
 - Configured **AWS Load Balancer** and **Azure Load Balancer** for intra‑cloud traffic distribution.  
