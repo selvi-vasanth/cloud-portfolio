@@ -92,3 +92,5 @@ User access validation
 
 ## Outcome
 This project successfully demonstrated Azure’s ability to connect workloads across VNets using peering and enforce governance through custom RBAC roles. Rand Enterprises validated Azure as a secure and flexible platform for enterprise workloads, with strong networking and identity management capabilities.
+
+[View the full project on GitHub](https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project3)
