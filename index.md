@@ -22,12 +22,24 @@ My hands‑on projects highlight expertise in automation, networking, and modern
   - Active‑active deployment using AWS ALB, Azure Load Balancer, and Traffic Manager with weighted DNS routing  
   - *Highlights resilient, secure, globally accessible architecture with cross‑cloud failover*
 
-- ## [Hybrid Cloud Architecture with Secure VPN & Identity Integration](./featured-projects/project2/README.md)
+- ## [Highly Available Architecture Using Azure CLI](./featured-projects/project2)
+  - Automated deployment of a highly available Azure environment using Azure CLI, featuring load‑balanced Linux VMs and health‑probe‑based failover  
+  - *Demonstrates resilient, fault‑tolerant architecture with seamless traffic redirection and reproducible IaC‑style provisioning*
+ 
+- ## [Secure Networking & RBAC (Azure)](./featured-projects/project3)
+  - Configured VNet peering between two Azure VNets to enable secure cross‑network VM communication, tested connectivity between workloads, and validated proper traffic flow  
+  - *Designed and assigned a custom RBAC role enforcing least‑privilege access for VM, network, and storage operations; validated permissions to ensure secure workload operation*
+
+- ## [CI/CD Pipeline Automation (AWS)](./featured-projects/project4)
+  - Built and automated a CI/CD pipeline for Spring Boot application deployment using AWS CodePipeline, CodeBuild, and CodeDeploy  
+  - *Reduced manual release effort by 80% by streamlining build, test, and deployment stages; demonstrated end‑to‑end delivery in a reproducible cloud environment*
+ 
+- ## Hybrid Cloud Architecture with Secure VPN & Identity Integration *(coming soon)*
   - Site‑to‑Site VPN connecting on‑prem workloads with AWS VPC and Azure VNet  
   - Unified identity management via Azure AD and AWS IAM federation  
   - *Demonstrates hybrid connectivity, secure routing, and enterprise‑grade identity integration*
 
-- ## [Serverless Multi‑Region Application with Disaster Recovery](./featured-projects/project3/README.md)
+- ## Serverless Multi‑Region Application with Disaster Recovery *(coming soon)*
   - AWS Lambda + API Gateway paired with Azure Functions + Application Gateway  
   - Cross‑cloud storage replication (S3 ↔ Azure Blob) with DNS‑based failover  
   - *Showcases modern serverless design, event‑driven scalability, and disaster recovery across regions*
