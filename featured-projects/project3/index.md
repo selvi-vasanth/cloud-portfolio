@@ -47,28 +47,27 @@ Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure
 - Verified that unauthorized actions were blocked  
 
 ---
-
 ## Screenshots
 VNet creation and Peering setup
-<br><img src="./assets/VNet-Peering.png" 
+<br><img src="./assets/VNet.png" 
+     alt="VNet" 
+     width="600"/><br/>
+<br><img src="./assets/VNetPeering.png" 
      alt="VNet Peering" 
      width="600"/><br/>
      
 VNet Peering test
-<br><img src="./assets/TestConnection" 
+<br><img src="./assets/TestConnection.png" 
      alt="Test Connection" 
      width="600"/><br/>
      
 User access validation
-<br><img src="./assets/Role-TestUser-Access.png" 
-     alt="TestResults" 
+<br><img src="./assets/RoleAssignment.png" 
+     alt="Role Assignment" 
      width="600"/><br/>     
-
-- VNet creation and peering setup  
-- VM deployment and connectivity test  
-- Custom RBAC role JSON definition  
-- Role assignment in Azure AD  
-- User access validation  
+<br><img src="./assets/TestUserAccess.png" 
+     alt="Test User Access" 
+     width="600"/><br/>  
 
 ---
 
