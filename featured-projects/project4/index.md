@@ -7,13 +7,12 @@ This project implements a fully automated CI/CD pipeline for deploying a Spring 
 A retail company relies on a Spring Boot–based inventory management system used across multiple departments. Deployment updates were manual, slow, and error‑prone. To improve release velocity and reduce operational overhead, the company required a fully automated CI/CD pipeline that triggers on every GitHub commit and deploys the updated application to ECS seamlessly.
 
 ## Architecture
-- GitHub repository as the source for application code  
-- AWS CodePipeline orchestrating the CI/CD workflow  
-- AWS CodeBuild compiling the Spring Boot application and building Docker images  
-- Amazon ECR storing versioned container images  
-- Amazon ECS (EC2 launch type) running the containerized application  
-- Application Load Balancer exposing the service publicly  
-- Automated deployment triggered on every GitHub push  
+- GitHub repository serving as the source control system  
+- AWS CodePipeline orchestrating the end‑to‑end CI/CD workflow  
+- AWS CodeBuild performing application build and container image creation  
+- Amazon Elastic Container Registry (ECR) storing versioned Docker images  
+- Amazon ECS (EC2 launch type) hosting the containerized application  
+- Application Load Balancer providing external access to the ECS service  
 
 **Architecture Diagram**
 
