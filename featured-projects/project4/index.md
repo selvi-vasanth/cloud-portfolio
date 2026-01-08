@@ -92,4 +92,12 @@ CodePipeline
 ## Outcome
 This project successfully automated the end‑to‑end deployment of a Spring Boot application using AWS CI/CD services. The pipeline reduced manual release effort by 80%, improved deployment reliability, and demonstrated a scalable, production‑ready workflow suitable for enterprise applications.
 
-[View the full project on GitHub](https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project4)
+---
+<p align="right">
+     <a href="https://selvi-vasanth.github.io/cloud-portfolio/">
+    Portfolio Home →
+     </a><br>
+     <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project4">
+    Repository link →
+     </a>
+</p>
