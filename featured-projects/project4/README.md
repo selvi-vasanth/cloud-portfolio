@@ -53,6 +53,5 @@ All screenshots are available here: [Screenshots.pdf](./assets/Screenshots.pdf)
 - Docker  
 - GitHub
 
-## Full Case Study
-For the complete write-up, screenshots, and architecture diagram, visit the portfolio page:  
+**Portfolio page:**  
 https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project4/
