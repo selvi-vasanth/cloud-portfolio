@@ -53,23 +53,23 @@ A retail company relies on a Spring Boot–based inventory management system use
 
 ## Screenshots
 
-     ECR repository
-     <br><img src="./assets/ECR.png" 
+ECR repository
+     <br><img src="assets/ECR.png" 
      alt="ECR Repository" 
      width="600"/><br/>
      
-     GitHub repository setup  
+GitHub repository setup  
      <br><img src="./assets/GitPush.png" 
      alt="GitHub Repo Commit" 
      width="600"/><br/>
      
-     CodeBuild  
-     <br><img src="./assets/CodeBuild.png" 
+CodeBuild  
+     <br><img src="assets/CodeBuild.png" 
      alt="CodeBuild" 
      width="600"/><br/>
      
-     CodePipeline  
-     <br><img src="./assets/CodePipeline.png" 
+CodePipeline  
+     <br><img src="assets/CodePipeline.png" 
      alt="CodePipeline" 
      width="600"/><br/>
      
