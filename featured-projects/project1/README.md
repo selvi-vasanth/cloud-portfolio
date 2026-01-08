@@ -29,13 +29,15 @@ Each instance serves a unique welcome page to confirm successful deployment and 
 - AWS EC2 Instance 1 user-data script  
 - AWS EC2 Instance 2 user-data script  
 
-All scripts are available in this folder.
+All scripts are available here: [Source Code](./assets/sourcecode.md)
 
 ## Validation & Testing
 - Verified Apache installation on all four instances  
 - Confirmed unique welcome pages load correctly  
 - Tested cross-cloud access from browser  
 - Ensured services persist after reboot  
+
+All screenshots are available here: [Screenshots](./assets/Screenshots.pdf)
 
 ## Tech Stack
 - **Azure**: Virtual Machines (Ubuntu 24.04)  
