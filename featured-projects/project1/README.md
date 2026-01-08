@@ -45,6 +45,5 @@ All screenshots are available here: [Screenshots](./assets/Screenshots.pdf)
 - **Web Server**: Apache HTTPD  
 - **Tools**: Bash, User Data  
 
-## Full Case Study
-For the complete write-up, screenshots, and architecture diagram, visit the portfolio page:  
- https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project1/
+**Portfolio page:**  
+https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project1/
