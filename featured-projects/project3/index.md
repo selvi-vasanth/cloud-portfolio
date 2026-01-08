@@ -7,13 +7,14 @@ This project demonstrates secure connectivity between workloads hosted in separa
 Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure’s networking and security capabilities, the company requested a proof‑of‑concept that connects workloads across VNets and applies custom access controls for an employee.
 
 ## Architecture
-- Two VNets deployed in different Azure regions  
-- Each VNet hosts a test virtual machine  
-- VNet peering configured for secure bidirectional communication  
-- Azure AD user onboarded for controlled access  
-- Custom RBAC role created with scoped permissions  
-- Connectivity validated via ping/SSH  
-- Access validated through role‑based operations  
+- Two Azure Virtual Networks (VNets) located in separate regions  
+- Dedicated subnets within each VNet  
+- Virtual Machines in each VNet for workload simulation  
+- VNet Peering enabling private, low‑latency communication between VNets  
+- Azure Active Directory providing identity and access management  
+- Custom RBAC role defining least‑privilege access boundaries  
+- Role assignment at the resource group scope for controlled governance  
+
 
 **Architecture Diagram**
 
