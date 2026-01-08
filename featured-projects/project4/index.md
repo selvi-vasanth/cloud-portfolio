@@ -1,4 +1,4 @@
-# CI/CD Pipeline Automation (AWS)
+# Case Study: CI/CD Pipeline Automation (AWS)
 
 ## Overview
 This project implements a fully automated CI/CD pipeline for deploying a Spring Boot application to Amazon ECS using AWS CodePipeline, CodeBuild, and Elastic Container Registry (ECR). The pipeline builds, containerizes, and deploys the application with zero manual intervention, ensuring fast, reliable, and repeatable deployments.
@@ -20,7 +20,7 @@ A retail company relies on a Spring Boot–based inventory management system use
      alt="Architecture Diagram" 
      width="600"/><br/>
      
-## Key Components
+### Key Components
 - **Source Control:** GitHub repository  
 - **Build & Packaging:** Maven, Docker, AWS CodeBuild  
 - **Container Registry:** Amazon ECR  
@@ -53,13 +53,26 @@ A retail company relies on a Spring Boot–based inventory management system use
 
 ## Screenshots
 
-- ECR repository creation  
-- GitHub repository setup and initial commit  
-- CodeBuild project creation and successful build logs  
-- ECS cluster, task definition, and service deployment  
-- Load balancer endpoint showing application responses  
-- CodePipeline execution with all stages succeeding  
-
+     ECR repository
+     <br><img src="./assets/ECR.png" 
+     alt="ECR Repository" 
+     width="600"/><br/>
+     
+     GitHub repository setup  
+     <br><img src="./assets/GitPush.png" 
+     alt="GitHub Repo Commit" 
+     width="600"/><br/>
+     
+     CodeBuild  
+     <br><img src="./assets/CodeBuild.png" 
+     alt="CodeBuild" 
+     width="600"/><br/>
+     
+     CodePipeline  
+     <br><img src="./assets/CodePipeline.png" 
+     alt="CodePipeline" 
+     width="600"/><br/>
+     
 ## Lessons Learned
 - Automating CI/CD significantly reduces deployment time and human error  
 - ECR + ECS + CodePipeline provides a powerful, fully managed deployment workflow  
