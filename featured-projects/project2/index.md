@@ -80,4 +80,12 @@ VM failover test results
 ## Outcome
 This project successfully delivered a highly available Azure architecture using fully automated Azure CLI commands. The environment demonstrated fault tolerance, seamless traffic redirection, and consistent uptime—meeting Rand Enterprises’ requirement for a secure, resilient, and reusable deployment model.
 
-[View the full project on GitHub](https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project2)
+---
+<p align="right">
+     <a href="https://selvi-vasanth.github.io/cloud-portfolio/">
+    Portfolio Home →
+     </a><br>
+     <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project2">
+    Repository link →
+     </a>
+</p>
