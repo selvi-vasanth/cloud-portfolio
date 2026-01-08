@@ -29,6 +29,8 @@ Links to scripts used in this project:  [Script](./assets/Source%20Code.pdf)
 - Validated restricted access to VM, network, and storage operations  
 - Ensured unauthorized actions were blocked  
 
+Screenshots are available :  [Screenshots](./assets/Screenshots.pdf)
+
 ## Tech Stack
 - Azure Virtual Network (VNet)  
 - Azure Virtual Machines (VMs)  
@@ -37,6 +39,5 @@ Links to scripts used in this project:  [Script](./assets/Source%20Code.pdf)
 - Azure RBAC (Custom Role)  
 - PowerShell
 
-## Full Case Study
-For the complete write-up, screenshots, and architecture diagram, visit the portfolio page:  
+**Portfolio page:**  
 https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project3/
