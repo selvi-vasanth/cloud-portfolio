@@ -86,8 +86,12 @@ The solution follows an **active‑active architecture** with weighted routing:
 ## Outcome
 This project delivered a resilient, globally accessible multi‑cloud architecture using AWS and Azure. It demonstrated hands‑on expertise in cross‑cloud networking, load balancing, DNS routing, and high‑availability design.
 
+---
 <p align="right">
-  <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project1">
+     <a href="https://selvi-vasanth.github.io/cloud-portfolio/">
+    Portfolio Home →
+     </a><br>
+     <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project1">
     Repository link →
-  </a>
+     </a>
 </p>
