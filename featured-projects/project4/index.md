@@ -74,12 +74,10 @@ A retail company relies on a Spring Boot–based inventory management system use
 - **Amazon ECR**  
 - **Amazon ECS (EC2 launch type)**  
 - **Application Load Balancer**  
-- **Docker**  
-- **Maven**  
-- **Spring Boot**  
+- **Docker** 
 - **GitHub**  
 
 ## Outcome
 This project successfully automated the end‑to‑end deployment of a Spring Boot application using AWS CI/CD services. The pipeline reduced manual release effort by 80%, improved deployment reliability, and demonstrated a scalable, production‑ready workflow suitable for enterprise applications.
 
-[View the full project on GitHub](https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project3)
+[View the full project on GitHub](https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project4)
