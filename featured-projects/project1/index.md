@@ -58,13 +58,13 @@ The solution follows an **active‑active architecture** with weighted routing:
 
 ## Screenshots
  AWS Load Balancer configuration
-  <br><br><img src="./assets/aws-lb.png" alt="AWS Load Balancer" width="600">
-
+  <br><img src="./assets/aws-lb.png" alt="AWS Load Balancer" width="600">
+  
  Azure Load Balancer configuration
-  <br><br><img src="./assets/azure-lb.png" alt="Azure Load Balancer" width="600">
+  <br><img src="./assets/azure-lb.png" alt="Azure Load Balancer" width="600">
   
  Azure Traffic Manager routing profile  
- <br><img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
+ <img src="./assets/azure-traffic-manager.png" alt="Azure Traffic Manager" width="600">
 
 ---
 
