@@ -3,9 +3,13 @@
 ## Overview
 This project demonstrates how to design and deploy a highly available web application architecture on Microsoft Azure using the Azure CLI. The solution distributes incoming traffic across multiple virtual machines, ensuring that only healthy instances serve user requests. This setup improves uptime, fault tolerance, and operational consistency through automation.
 
+---
+
 ## Project Scenario
 Rand Enterprises wants to deploy a web application in a highly available environment where only healthy VM instances serve traffic. To avoid exposing VMs directly to the internet, all communication must flow through an Azure Public Load Balancer. The operations team also requires a reusable, script‑driven deployment method using Azure CLI to support future automation
 and consistent provisioning.
+
+---
 
 ## Architecture
 - **Virtual Network (VNet)** with a dedicated subnet  
@@ -23,7 +27,9 @@ and consistent provisioning.
 <img src="./assets/Architecture-diagram.png" 
      alt="Current Architecture Diagram" 
      width="600"/><br/>
+     
 ---
+
 ### Key Components
 - Azure Virtual Network & Subnet  
 - Azure Public Load Balancer  
@@ -32,6 +38,8 @@ and consistent provisioning.
 - Load Balancing Rule  
 - Two Virtual Machines (Linux)  
 - Azure CLI automation scripts  
+
+---
 
 ## Implementation Summary
 - Provisioned a VNet and subnet using Azure CLI  
@@ -43,11 +51,15 @@ and consistent provisioning.
 - Attached both VMs to the backend pool  
 - Validated high availability by simulating VM failures and observing seamless failover  
 
+---
+
 ## Validation & Testing
 - Verified that both VMs served the application through the Load Balancer  
 - Stopped one VM to simulate failure and confirmed traffic automatically redirected to the healthy instance  
 - Ensured the Load Balancer health probe correctly detected unhealthy VMs  
 - Confirmed consistent uptime during test scenarios  
+
+---
 
 ## Screenshots 
 Load Balancer configuration
@@ -64,6 +76,9 @@ VM failover test results
 <br><img src="./assets/TestResults.png" 
      alt="TestResults" 
      width="600"/><br/>     
+
+---
+
 ## Lessons Learned
 - Importance of health probes in maintaining high availability  
 - How Azure Load Balancer routes traffic only to healthy instances  
@@ -71,11 +86,15 @@ VM failover test results
 - How to validate failover behavior in a controlled environment  
 - Understanding backend pool associations and VM networking  
 
+---
+
 ## Tech Stack
 - **Azure Services:** Virtual Network, Subnet, Virtual Machines, Public Load Balancer, Public IP, Network Security Group (NSG), NICs, Backend Pool, Health Probe  
 - **Tools:** Azure CLI, Bash  
 - **Compute:** Linux VMs  
 - **Networking:** Subnets, Public IP, Load Balancing  
+
+---
 
 ## Outcome
 This project successfully delivered a highly available Azure architecture using fully automated Azure CLI commands. The environment demonstrated fault tolerance, seamless traffic redirection, and consistent uptime—meeting Rand Enterprises’ requirement for a secure, resilient, and reusable deployment model.
