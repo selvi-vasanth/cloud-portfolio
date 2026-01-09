@@ -3,8 +3,12 @@
 ## Overview
 This project demonstrates secure connectivity between workloads hosted in separate Azure Virtual Networks (VNets) using VNet peering. It also implements a custom Role‑Based Access Control (RBAC) role to enforce least‑privilege access for an onboarded user, ensuring governance and operational security.
 
+---
+
 ## Project Scenario
 Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure’s networking and security capabilities, the company requested a proof‑of‑concept that connects workloads across VNets and applies custom access controls for an employee.
+
+---
 
 ## Architecture
 - Two Azure Virtual Networks (VNets) located in separate regions  
@@ -15,14 +19,14 @@ Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure
 - Custom RBAC role defining least‑privilege access boundaries  
 - Role assignment at the resource group scope for controlled governance  
 
-
 **Architecture Diagram**
 
 <img src="./assets/Architecture-diagram.png" 
      alt="Architecture Diagram" 
      width="600"/><br/>
-
+     
 ---
+
 ## Key Components
 - **Networking:** VNet1, VNet2, Subnets, VNet Peering  
 - **Compute:** VM1, VM2  
@@ -48,28 +52,28 @@ Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure
 - Verified that unauthorized actions were blocked  
 
 ---
-## Screenshots
-VNet creation and Peering setup
 
-<br><img src="./assets/VNet.png" 
+## Screenshots
+VNet creation and Peering setup  
+<img src="./assets/VNet.png" 
      alt="VNet" 
      width="600"/><br/>
-<br><img src="./assets/VNetPeering.png" 
+<br><br><img src="./assets/VNetPeering.png" 
      alt="VNet Peering" 
      width="600"/><br/>
      
-VNet Peering test
-
-<br><img src="./assets/TestConnection.png" 
+VNet Peering test  
+<img src="./assets/TestConnection.png" 
      alt="Test Connection" 
      width="600"/><br/>
      
-User access validation
-
-<br><img src="./assets/RoleAssignment.png" 
+Role Assignment  
+<img src="./assets/RoleAssignment.png" 
      alt="Role Assignment" 
      width="600"/><br/>     
-<br><img src="./assets/TestUserAccess.png" 
+
+User access validation  
+<img src="./assets/TestUserAccess.png" 
      alt="Test User Access" 
      width="600"/><br/>  
 
