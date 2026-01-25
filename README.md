@@ -91,6 +91,5 @@ This repository reflects hands‑on work with core cloud engineering tools and s
 ### Connect
 To explore my full cloud portfolio or get in touch, you can find me here:
 
-- GitHub: https://github.com/selvi-vasanth  
 - LinkedIn: https://www.linkedin.com/in/selvi-vasanth  
 - Portfolio: https://selvi-vasanth.github.io/cloud-portfolio/
