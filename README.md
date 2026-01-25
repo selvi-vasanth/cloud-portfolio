@@ -76,3 +76,21 @@ I continue to expand this repository with:
 - Exploration of AI‑driven cloud services across AWS and Azure  
 
 ---
+### Technologies & Tools Used
+This repository reflects hands‑on work with core cloud engineering tools and services across AWS and Azure, including:
+
+- AWS core services (VPC, EC2, S3, RDS, DynamoDB, Lambda, CloudWatch)  
+- Azure core services (VNet, VM, Blob Storage, Azure SQL)  
+- Infrastructure as Code using Terraform and ARM Templates  
+- Command‑line tooling with AWS CLI and Azure CLI  
+- Identity and access management using IAM and RBAC  
+- Monitoring, logging, and alerting through CloudWatch, and Log Analytics  
+
+---
+
+### Connect
+To explore my full cloud portfolio or get in touch, you can find me here:
+
+- GitHub: https://github.com/selvi-vasanth  
+- LinkedIn: https://www.linkedin.com/in/selvi-vasanth  
+- Portfolio: https://selvi-vasanth.github.io/cloud-portfolio/
