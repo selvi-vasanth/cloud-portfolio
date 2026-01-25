@@ -58,7 +58,7 @@ Operational excellence and governance labs:
 
 ---
 
-## Purpose of This Repository
+### Purpose of This Repository
 This repository serves as:
 - A portfolio showcase for cloud engineering roles  
 - A learning archive of hands‑on labs  
@@ -67,7 +67,7 @@ This repository serves as:
 
 ---
 
-## What’s Next
+### What’s Next
 I continue to expand this repository with:
 - More advanced multi‑cloud architectures  
 - Serverless workflows  
