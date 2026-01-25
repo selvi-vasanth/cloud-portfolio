@@ -40,4 +40,4 @@ Screenshots are available :  [Screenshots](./assets/Screenshots.pdf)
 - PowerShell
 
 **Portfolio page:**  
-https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project3/
+https://selvi-vasanth.github.io/cloud-portfolio/supporting/supporting-projects.md/
