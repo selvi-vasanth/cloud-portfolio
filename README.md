@@ -1,70 +1,78 @@
-#  Cloud Portfolio – Selvi Vasanth
+# Cloud Portfolio – Practice Labs (AWS & Azure)
 
-Welcome to my cloud computing portfolio. This site centralizes my projects and labs, showcasing hands‑on work in **Azure** and **AWS** with a focus on networking, automation, and high availability.
-
----
-
-##  Networking & Security Labs
-- [Azure Networking Lab](https://selvi-vasanth.github.io/cloud-portfolio/supporting/project1/)  
-  *Secure VNet with segmented subnets and NSG rules.*
-- NSG Deep Dive *(coming soon)*  
-- VNet Peering Lab *(coming soon)*  
+Welcome to my Cloud Portfolio Repository, a curated collection of hands‑on labs demonstrating my practical experience across AWS and Azure. These labs reflect my continuous learning journey in cloud engineering, covering real‑world scenarios, architecture patterns, automation, and operational excellence. Each lab is designed to be modular, reproducible, and aligned with industry best practices.
 
 ---
 
-##  High Availability Labs
-- [Geo‑Redundant Architecture](https://selvi-vasanth.github.io/cloud-portfolio/featured-projects/project1/)  
-  *Multi‑region VNets, Traffic Manager, and secure VM‑to‑gateway communication.*
-- Disaster Recovery Simulation *(coming soon)*  
+## Lab Categories
+
+### Networking & Security Labs
+Hands‑on exercises focused on:
+- VNet / VPC design  
+- Subnetting and routing  
+- Network security groups / security groups  
+- Load balancers and traffic flow  
+- Identity and access controls  
+- Secure communication between workloads  
 
 ---
 
-##  Infrastructure Automation Labs
-- [Terraform vs Ansible Comparison](https://<username>.github.io/terraform-vs-ansible/)  
-  *Deploy the same architecture using both tools, highlighting differences.*
-- Ansible Playbooks *(coming soon)*  
+### Infrastructure Automation Labs
+Automation‑driven labs using:
+- Terraform for IaC  
+- ARM Templates  
+- Azure CLI / AWS CLI  
+- Reproducible deployments  
 
 ---
 
-##  Compute & Storage Labs
-- Azure VM + Load Balancer *(coming soon)*  
-- [AWS Serverless Mini Labs](https://<username>.github.io/aws-serverless-mini-labs/)  
-  *Hands‑on with Lambda, S3, and RDS.*  
+### High Availability Labs
+Projects demonstrating resilient, fault‑tolerant architectures:
+- Multi‑AZ / multi‑region deployments  
+- Load balancing strategies  
+- CDN‑based global distribution  
+- Failover and health‑probe validation  
 
 ---
 
-
-##  Database Labs
-- Azure SQL Database *(coming soon)*  
-  *Provision a managed SQL database, configure firewall rules, and connect from a VM.*
-- AWS RDS *(coming soon)*  
-  *Deploy MySQL/PostgreSQL on RDS, enable backups, and test connectivity.*
-- Serverless + DB Integration *(coming soon)*  
-  *Trigger an Azure Function or AWS Lambda to insert records into a database.*
-- High Availability DB Setup *(coming soon)*  
-  *Configure geo‑replication for Azure SQL or multi‑AZ deployment for RDS.*
-- Monitoring DB Performance *(coming soon)*  
-  *Use Azure Monitor or CloudWatch metrics to track query latency and CPU usage.*
+### Compute & Storage Labs
+Labs covering:
+- EC2 / Azure VM provisioning  
+- Serverless compute (Lambda / Azure Functions)  
+- S3 / Blob Storage  
 
 ---
 
-##  Monitoring & Identity Labs
-- Azure Monitor + Log Analytics *(coming soon)*  
-- AWS CloudWatch Alarms *(coming soon)*  
-- RBAC & IAM Labs *(coming soon)*  
+### Database Labs
+Practical exercises with:
+- RDS / Azure SQL  
+- DynamoDB / Cosmos DB  
 
 ---
 
-##  Summary
-This portfolio demonstrates:
-- Practical cloud networking and security setups  
-- Infrastructure automation with Terraform and Ansible  
-- High availability and geo‑redundant architectures  
-- Hands‑on troubleshooting in cloud environments 
+### Monitoring & Identity Labs
+Operational excellence and governance labs:
+- CloudWatch / Azure Monitor  
+- Log analytics and alerting  
+- IAM / RBAC  
 
 ---
 
-##  Connect
-- **GitHub Profile:** [selvi-vasanth](https://github.com/selvi-vasanth)  
-- **Portfolio Hub:** [Cloud Portfolio](https://selvi-vasanth.github.io/cloud-portfolio/)  
+## Purpose of This Repository
+This repository serves as:
+- A portfolio showcase for cloud engineering roles  
+- A learning archive of hands‑on labs  
+- A reference hub for reusable patterns and configurations  
+- A demonstration of practical skills across AWS and Azure  
 
+---
+
+## What’s Next
+I continue to expand this repository with:
+- More advanced multi‑cloud architectures  
+- Serverless workflows  
+- Security‑focused labs  
+- Real‑world project implementations  
+- Exploration of AI‑driven cloud services across AWS and Azure  
+
+---
