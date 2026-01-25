@@ -4,9 +4,9 @@
 
 ## About Me
 
-I’m an experienced software developer transitioning into cloud computing, specializing in Azure and AWS.  
-With 9+ years of background in enterprise applications (C#.Net, SQL Server), I now focus on designing secure, scalable architectures across multi‑region environments.  
-My hands‑on projects highlight expertise in automation, networking, and modern cloud services.
+I’m an experienced software developer transitioning into cloud computing, specializing in Azure and AWS. With 9+ years of background in dveloping 
+enterprise applications (C#.Net, SQL Server), I now focus on designing secure, scalable architectures across multi‑region environments. My hands‑on 
+projects highlight expertise in automation, networking, and modern cloud services.
 
 <!--
 <img src="./featured-projects/project1/assets/multi-cloud-architecture.png" 
@@ -25,10 +25,10 @@ My hands‑on projects highlight expertise in automation, networking, and modern
 - ## [Highly Available Architecture Using Azure CLI](./featured-projects/project2)
   - Automated deployment of a highly available Azure environment using Azure CLI, featuring load‑balanced Linux VMs and health‑probe‑based failover  
   - *Demonstrates resilient, fault‑tolerant architecture with seamless traffic redirection and reproducible IaC‑style provisioning*
- 
-- ## [Secure Networking & RBAC (Azure)](./featured-projects/project3)
-  - Configured VNet peering between two Azure VNets to enable secure cross‑network VM communication, tested connectivity between workloads, and validated proper traffic flow  
-  - *Designed and assigned a custom RBAC role enforcing least‑privilege access for VM, network, and storage operations; validated permissions to ensure secure workload operation*
+
+- ## [Serverless Image Processing (AWS)](./featured-projects/project3)
+  - Built a serverless image‑processing pipeline using S3 event triggers, Lambda, and a custom Pillow layer to automatically generate resized thumbnail versions of uploaded images
+  - *Configured S3, DynamoDB, and CloudWatch access for the Lambda function using AWS‑managed full‑access policies, and validated end‑to‑end processing and logging across the workflows*
 
 - ## [CI/CD Pipeline Automation (AWS)](./featured-projects/project4)
   - Built and automated a CI/CD pipeline for Spring Boot application deployment using AWS CodePipeline, CodeBuild, and CodeDeploy  
