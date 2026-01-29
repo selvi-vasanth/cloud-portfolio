@@ -30,7 +30,7 @@ This project implements an end-to-end workflow where users upload images to an S
 - **IAM Roles** — Scoped permissions for Lambda execution  
 - **CloudWatch Logs** — Tracks Lambda execution and errors  
 
-Architecture diagram is available here: [Architecture diagram](./assets/diagrams/Architecture-Diagram.png)
+Architecture diagram is available here: [Architecture diagram](./assets/Architecture-Diagram.png)
 
 ---
 
@@ -68,8 +68,8 @@ Architecture diagram is available here: [Architecture diagram](./assets/diagrams
 
 ##  Scripts and Source Code Included
 
-- Lambda function code (Python) [Source Code](./src/handler.py)
-- Pillow Layer Creation [Scripts](./assets/docs/pillow-layer.build.md)
+- Lambda function code (Python) [Source Code](./assets/handler.py)
+- Pillow Layer Creation [Scripts](./assets/pillow-layer.build.md)
 
 ---
 
@@ -82,7 +82,7 @@ Architecture diagram is available here: [Architecture diagram](./assets/diagrams
 - Validated CloudFront delivery using public CDN URLs
 - Ensured permissions follow least-privilege principles  
 
- All screenshots and test results are available here: [Screenshots](./assets/docs/Screenshots.pdf)
+ All screenshots and test results are available here: [Screenshots](./assets/Screenshots.pdf)
 
 ---
 
