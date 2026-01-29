@@ -1,109 +1,132 @@
-# Case Study: Secure Networking & RBAC (Azure)
+# Case Study: Serverless Image Processing Pipeline (AWS)
 
 ## Overview
-This project demonstrates secure connectivity between workloads hosted in separate Azure Virtual Networks (VNets) using VNet peering. It also implements a custom Role‑Based Access Control (RBAC) role to enforce least‑privilege access for an onboarded user, ensuring governance and operational security.
+This project implements an end-to-end workflow where users upload images to an S3 bucket, triggering a Lambda function that processes the image and stores metadata. The processed images are then delivered globally through CloudFront, showcasing a fully serverless, event-driven image processing pipeline on AWS.
+
+### The pipeline showcases:
+- Event-driven architecture  
+- AWS Lambda for backend processing  
+- S3 triggers  
+- DynamoDB for metadata storage  
+- IAM least-privilege design  
+- CloudFront CDN integration  
+- CloudWatch logging and monitoring  
 
 ---
 
 ## Project Scenario
-Rand Enterprises is evaluating Azure as a deployment platform. To validate Azure’s networking and security capabilities, the company requested a proof‑of‑concept that connects workloads across VNets and applies custom access controls for an employee.
+A media-centric application needs to automatically process user-uploaded images without managing servers or container infrastructure. The goal is to resize images, extract metadata, store structured information, and deliver optimized outputs globally with minimal operational overhead.  
+This project serves as a proof-of-concept demonstrating how AWS managed services can be combined to build a scalable, secure, and cost-efficient image processing pipeline.
 
 ---
 
 ## Architecture
-- Two Azure Virtual Networks (VNets) located in separate regions  
-- Dedicated subnets within each VNet  
-- Virtual Machines in each VNet for workload simulation  
-- VNet Peering enabling private, low‑latency communication between VNets  
-- Azure Active Directory providing identity and access management  
-- Custom RBAC role defining least‑privilege access boundaries  
-- Role assignment at the resource group scope for controlled governance  
+- **S3 (raw-images)** — Stores original uploaded images  
+- **Lambda (image-processor)** — Generates thumbnails, extracts metadata, writes to DynamoDB  
+- **DynamoDB (ImageMetadata)** — Stores image details and CloudFront URLs  
+- **S3 (processed-images)** — Stores processed thumbnails  
+- **CloudFront Distribution** — Serves processed images globally  
+- **IAM Roles** — Scoped permissions for Lambda execution  
+- **CloudWatch Logs** — Tracks Lambda execution and errors  
 
 **Architecture Diagram**
 
-<img src="./assets/Architecture-diagram.png" 
-     alt="Architecture Diagram" 
+<img src="./assets/Architecture-Diagram.png"
+     alt="Architecture Diagram"
      width="600"/><br/>
-     
+
 ---
 
 ## Key Components
-- **Networking:** VNet1, VNet2, Subnets, VNet Peering  
-- **Compute:** VM1, VM2  
-- **Identity:** Azure Active Directory, Custom RBAC Role  
-- **Governance:** Role assignment, least‑privilege enforcement  
+- **Storage:** AWS S3 buckets for raw and processed images  
+- **Compute:** AWS Lambda (Python with Pillow)  
+- **Database:** DynamoDB table `ImageMetadata`  
+- **Eventing:** S3 → Lambda trigger on `ObjectCreated:*`  
+- **Security:** IAM least-privilege execution role  
+- **Delivery:** CloudFront distribution with S3 origin (OAC optional)  
+- **Monitoring:** CloudWatch Logs for execution and error tracking  
 
 ---
 
 ## Implementation Summary
-- Built two VNets with associated subnets and VMs  
-- Configured VNet peering to enable secure cross‑network communication  
-- Created a custom RBAC role with permissions to read VM, network, and storage resources, and start/restart VMs  
-- Onboarded a user into Azure AD and assigned the custom role  
-- Validated connectivity between VMs across VNets  
-- Verified that the user could only perform actions defined in the custom role  
+- Created two S3 buckets:
+  - `raw-images-<unique>` for uploads  
+  - `processed-images-<unique>` for thumbnails  
+- Created a DynamoDB table **ImageMetadata** with partition key `imageId`  
+- Built a Lambda function (`image-processor`) using Python and Pillow  
+- Implemented thumbnail generation (e.g., 200×200)  
+- Extracted metadata (size, format, timestamp)  
+- Wrote metadata and CloudFront URLs to DynamoDB  
+- Uploaded processed images to the `processed-images` bucket  
+- Added S3 → Lambda trigger on `ObjectCreated:*`  
+- Configured CloudFront with the `processed-images` bucket as origin  
+- Enabled Origin Access Control (OAC) for secure S3 access (optional)  
 
 ---
 
 ## Validation & Testing
-- Ping/SSH tests confirmed secure cross‑VNet connectivity  
-- RBAC validation ensured the user had only least‑privilege access  
-- Confirmed restricted access to VM, network, and storage operations  
-- Verified that unauthorized actions were blocked  
+- Uploaded multiple images to the raw S3 bucket  
+- Verified Lambda execution via CloudWatch Logs  
+- Confirmed thumbnails generated correctly in the processed bucket  
+- Checked DynamoDB entries for metadata and URLs  
+- Validated CloudFront delivery using public CDN URLs  
+- Ensured IAM permissions followed least-privilege principles  
+
+## Screenshots
+  S3 Buckets
+  <br><img src="./assets/s3-buckets.png" alt="S3 Buckets" width="600">
+  
+  AWS Lambda Function
+  <br><img src="./assets/lambda-function.png" alt="LambdaFunction" width="600">
+  
+ CloudFront Distribution  
+ <img src="./assets/cloud-front.png" alt="CloudFront" width="600">
+
+ Processed Buckets  
+  <img src="./assets/thumbnails.png" alt="ProcessedBuckets" width="600">
+
+---
 
 ---
 
 ## Screenshots
-VNet creation and Peering setup  
-<img src="./assets/VNet.png" 
-     alt="VNet" 
-     width="600"/><br/>
-<br><br><img src="./assets/VNetPeering.png" 
-     alt="VNet Peering" 
-     width="600"/><br/>
-     
-VNet Peering test  
-<img src="./assets/TestConnection.png" 
-     alt="Test Connection" 
-     width="600"/><br/>
-     
-Role Assignment  
-<img src="./assets/RoleAssignment.png" 
-     alt="Role Assignment" 
-     width="600"/><br/>     
-
-User access validation  
-<img src="./assets/TestUserAccess.png" 
-     alt="Test User Access" 
-     width="600"/><br/>  
+- S3 bucket configuration and object uploads  
+- Lambda function configuration and CloudWatch Logs  
+- DynamoDB `ImageMetadata` table entries  
+- CloudFront distribution and URL access tests  
 
 ---
 
 ## Lessons Learned
-- VNet peering provides seamless, low‑latency connectivity across VNets  
-- Custom RBAC roles are essential for enforcing least‑privilege access  
-- Validating connectivity and permissions ensures both networking and governance requirements are met  
+- Serverless architectures significantly reduce operational overhead for media processing workloads  
+- S3 event triggers provide a clean, decoupled pattern for file-based automation  
+- DynamoDB is well-suited for storing lightweight, queryable image metadata and URLs  
+- IAM least-privilege design is critical for securing serverless pipelines  
+- CloudFront integration greatly improves global performance and user experience  
 
 ---
 
 ## Tech Stack
-- **Azure Virtual Network (VNet)**  
-- **Azure Virtual Machines (VMs)**  
-- **Azure VNet Peering**  
-- **Azure Active Directory (Azure AD)**  
-- **Azure RBAC (Custom Role)**  
+- **AWS S3** — Object storage for raw and processed images  
+- **AWS Lambda** — Event-driven compute (Python + Pillow)  
+- **AWS DynamoDB** — NoSQL metadata storage  
+- **AWS CloudFront** — Global CDN for processed images  
+- **AWS IAM** — Secure access control  
+- **AWS CloudWatch** — Logging and monitoring  
+- **Language:** Python  
 
 ---
 
 ## Outcome
-This project successfully demonstrated Azure’s ability to connect workloads across VNets using peering and enforce governance through custom RBAC roles. Rand Enterprises validated Azure as a secure and flexible platform for enterprise workloads, with strong networking and identity management capabilities.
+This project successfully demonstrates a fully serverless, event-driven image processing pipeline using AWS managed services. The solution automates image resizing, metadata extraction, and global delivery while maintaining a secure, scalable, and cost-efficient architecture suitable for production workloads and media-heavy applications.
 
 ---
+
 <p align="right">
      <a href="https://selvi-vasanth.github.io/cloud-portfolio/">
-    Portfolio Home →
+     Portfolio Home →
      </a><br>
-     <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/project3">
-    Repository link →
+     <a href="https://github.com/selvi-vasanth/cloud-portfolio/tree/main/featured-projects/serverless-image-processing">
+     Repository link →
      </a>
 </p>
